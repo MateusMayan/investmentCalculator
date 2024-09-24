@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { calculateInvestmentResults } from '../investment-results';
 
 @Component({
   selector: 'app-user-input',
@@ -6,17 +7,16 @@ import { Component } from '@angular/core';
   styleUrl: './user-input.component.css'
 })
 export class UserInputComponent {
-  initialInvestment: Number = 0
-  annualInvestment: Number = 0
-  expectedReturn: Number = 0
-  duration: Number = 0
-
+  initialInvestment: number = 0
+  annualInvestment: number = 0
+  expectedReturn: number = 0
+  duration: number = 0
+  annualData = {}
   
 
   onSubmit() {
-    console.log(this.duration);
-    console.log(this.annualInvestment);
-    console.log(this.expectedReturn);
-    console.log(this.duration);
+    this.annualData = calculateInvestmentResults(this.initialInvestment, this.annualInvestment, this.expectedReturn, this.duration)
+    console.log(this.annualData);
+    
   }
  }
