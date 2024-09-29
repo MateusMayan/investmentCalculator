@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { InvestmenteInput } from './investment-input.model';
+import { InvestmentInput } from './investment-input.model';
 
 @Component({
   selector: 'app-root',
@@ -15,7 +15,7 @@ export class AppComponent {
     totalAmountInvested: number,
 }[]
 
-  onCalculateInvestmentResults(data: InvestmenteInput) {
+  onCalculateInvestmentResults(data: InvestmentInput) {
     const { initialInvestment, annualInvestment, expectedReturn, duration } =
       data;
     const annualData = [];
