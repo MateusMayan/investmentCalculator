@@ -1,27 +1,14 @@
-# EssentialsPractice
+# Investment Calculator
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0-next.2.
+## Descrição
+O Investment Calculator é uma aplicação desenvolvida em Angular que permite aos usuários calcular o valor futuro de um investimento, com base em entradas como valor inicial, aportes anuais, taxa de retorno e duração do investimento. A aplicação gera um array de objetos com os resultados e exibe em tela a evolução do investimento de ano a ano.
 
-## Development server
+## Tecnologias Utilizadas
+Framework: Angular
+Linguagem: TypeScript
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Inputs Solicitados:
+Initial Investment: Valor do capital inicial aplicado.
+Annual Investment: Valor dos aportes feitos anualmente.
+Expected Return: Taxa de retorno anual do investimento (em porcentagem).
+Duration (Year): Tempo, em anos, que o investimento será mantido.
