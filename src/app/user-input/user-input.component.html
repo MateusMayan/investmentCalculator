@@ -7,7 +7,7 @@
         id="initialInvestment"
         name="initialInvestment"
         required
-        [(ngModel)]="this.initialInvestment"
+        [(ngModel)]="initialInvestment"
       />
     </p>
 
@@ -18,7 +18,7 @@
         id="annualInvestment"
         name="annualInvestment"
         required
-        [(ngModel)]="this.annualInvestment"
+        [(ngModel)]="annualInvestment"
       />
     </p>
   </div>
@@ -30,14 +30,14 @@
         id="expectedReturn"
         name="expectedReturn"
         required
-        [(ngModel)]="this.expectedReturn"
+        [(ngModel)]="expectedReturn"
       />
     </p>
 
     <p>
       <label for="duration">Duration</label>
       <input type="number" id="duration"
-      name="duration" required [(ngModel)]="this.duration" />
+      name="duration" required [(ngModel)]="duration" />
     </p>
   </section>
   <button type="submit">Submit</button>
