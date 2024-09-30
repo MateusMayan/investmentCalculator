@@ -12,9 +12,7 @@ export class UserInputComponent {
   expectedReturn = signal('5');
   duration = signal('10');
 
-  constructor(private investmentService: InvestmentService) {
-
-  }
+  constructor(private investmentService: InvestmentService) {}
 
   onSubmit() {
     this.investmentService.calculateInvestmentResults({
