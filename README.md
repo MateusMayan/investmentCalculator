@@ -1,27 +1,41 @@
-# EssentialsPractice
+# Investment Calculator
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0-next.2.
+## Descrição
+O Investment Calculator é uma aplicação desenvolvida em Angular que permite aos usuários calcular o valor futuro de um investimento, com base em entradas como valor inicial, aportes anuais, taxa de retorno e duração do investimento. A aplicação gera um array de objetos com os resultados e exibe em tela a evolução do investimento de ano a ano.
 
-## Development server
+## Tecnologias Utilizadas
+Framework: Angular
+Linguagem: TypeScript
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Inputs Solicitados:
+Initial Investment: Valor do capital inicial aplicado.
 
-## Code scaffolding
+Annual Investment: Valor dos aportes feitos anualmente.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Expected Return: Taxa de retorno anual do investimento (em porcentagem).
 
-## Build
+Duration (Year): Tempo, em anos, que o investimento será mantido.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Como Usar
+1- Insira o Investimento Inicial.
 
-## Running unit tests
+2 - Insira o Investimento Anual.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3 - Defina a Taxa de Retorno Esperada (em %).
 
-## Running end-to-end tests
+4 - Selecione a Duração do Investimento em anos.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+5 - Clique em "Calcular" para visualizar o resultado e baixar o arquivo JSON com os dados.
 
-## Further help
+## Contribuição
+#### Sinta-se à vontade para contribuir com este projeto! Para isso, siga os passos abaixo:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1 - Fork este repositório.
+
+2 - Crie uma branch para sua feature (git checkout -b minha-feature).
+
+3 - Commit suas mudanças (git commit -m 'Minha nova feature').
+
+4 - Push para a branch (git push origin minha-feature).
+
+5 - Abra um Pull Request.
